@@ -17,3 +17,16 @@
 (define circumference ( * 2 pi radius ))
 area
 circumference
+
+(define (square x)
+    (* x x))
+
+(square 3)
+
+(square (square 3))
+
+(define (sum-of-squares x y)
+    (+ (square x) (square y)))
+
+(sum-of-squares 3 5)
+(sum-of-squares n (+ n 1))
